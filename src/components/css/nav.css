@@ -1,0 +1,152 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e1e2c;
+  color: white;
+  border-bottom: 1px solid #24252e;
+  padding: 15px 5px;
+  white-space: nowrap;
+  overflow-y: auto;
+}
+
+nav .left {
+  display: flex;
+  align-items: center;
+}
+
+nav .left a {
+  color: #eee;
+  text-decoration: none;
+}
+
+nav .left a span {
+  margin-left: 10px;
+}
+
+nav #logo {
+  display: flex;
+  align-items: center;
+}
+
+nav #logo span {
+  font-size: 14px;
+}
+
+nav #trend {
+  display: flex;
+  align-items: center;
+}
+
+nav #trend span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #323447;
+  margin-left: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+nav #trend span svg {
+  width: 15px;
+}
+
+nav #trend p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+nav .right {
+  display: flex;
+  align-items: center;
+}
+
+nav .right .profile {
+  position: relative;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+nav .right .profile .image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+nav .right .profile .image img {
+  width: 100%;
+}
+
+nav .right .profile span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #fdeeb9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid #1e1e2c;
+  bottom: -6px;
+  right: -3px;
+}
+
+nav .right .profile span svg {
+  width: 5px;
+}
+
+nav .right button {
+  margin: 0px 10px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+nav .right button:hover {
+  background-color: #2a2a3b;
+}
+
+nav .right button svg {
+  width: 18px;
+  fill: #79798d;
+}
+
+nav form {
+  width: auto;
+  display: flex;
+  background-color: transparent;
+}
+
+nav form button {
+  border: none;
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 35px;
+}
+
+nav form button svg {
+  width: 15px;
+  fill: #ddd;
+}
+
+nav form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  caret-color: #ddd;
+  color: #9191a7;
+  width: 0px;
+  transition: 0.8s;
+}
