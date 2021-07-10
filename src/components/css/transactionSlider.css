@@ -1,10 +1,14 @@
+.transbox {
+  width: 500px;
+  max-width: 100%;
+  margin: 20px 0px;
+}
+
 .transbox .header .title-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0px;
-  width: 500px;
-  max-width: 100%;
 }
 
 .transbox .header .title-bar h1 {
@@ -26,4 +30,105 @@
 .transbox .header .title-bar .controls button svg {
   width: 18px;
   fill: inherit;
+}
+
+.transbox .header .info-bar .info {
+  display: flex;
+  align-items: center;
+}
+
+.transbox .header .info-bar .info .currency-img {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #1e1e2c;
+}
+
+.transbox .header .info-bar .info .currency-img img {
+  width: 100%;
+}
+
+.transbox .header .info-bar .info .total {
+  font-weight: 400;
+}
+
+.transbox .header .info-bar .info .currency {
+  font-weight: 300;
+  font-size: 30px;
+  margin-left: 5px;
+  color: #5f5f69;
+}
+
+.transbox .header .info-bar .info .trend-info {
+  margin-left: auto;
+}
+
+.transbox .header .info-bar .info .trend-info > span {
+  display: inline-flex;
+  margin: 10px;
+}
+
+.transbox .header .info-bar .info .trend-info > span strong {
+  margin-left: 10px;
+  font-weight: 500;
+  color: #5f5f69;
+}
+
+.transbox .header .info-bar .info .trend-info svg {
+  width: 12px;
+  margin-right: 5px;
+  position: relative;
+  top: -3px;
+}
+
+.transbox .header .info-bar p {
+  color: #5f5f69;
+  font-weight: 600;
+}
+
+.transbox .content {
+  padding-top: 10px;
+}
+
+.transbox .content .transaction {
+  height: 80px;
+  background-color: #2a2c3e;
+  border-radius: 10px;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.transbox .content .transaction .trans-info {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.transbox .content .transaction .icon-box {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  background-color: #1e1e2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transbox .content .transaction:nth-child(2) .icon-box {
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.transbox .content .transaction .icon-box svg {
+  width: 100%;
+  height: 100%;
+}
+
+.transbox .content .transaction .amount {
+  margin-right: 20px;
 }
